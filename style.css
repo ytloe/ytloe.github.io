@@ -4,7 +4,7 @@ html {
   margin: 0;
   padding: 0;
   width: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   transition: background-color 0.3s ease;
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10+ */
@@ -13,7 +13,7 @@ html {
 
 /* 浅色模式背景 */
 body {
-  background-image: url("background.webp");
+  background-image: url('background.webp');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -24,7 +24,7 @@ body {
 /* 竖屏背景 */
 @media (orientation: portrait) {
   body {
-    background-image: url("mobile-background.webp");
+    background-image: url('mobile-background.webp');
   }
 }
 /* 深色模式下，即使是竖屏也禁用图片背景 */
@@ -318,9 +318,9 @@ body.dark-mode .context-menu-item:hover {
  */
 .update-info {
   position: fixed;
-  top: 75px; /* 位于顶栏下方 */
+  top: 70px; /* 位于顶栏下方 */
   right: 30px;
-  color: #888; /* 灰色字体 */
+  color: lightgrey; /* 灰色字体 */
   font-size: 12px;
   font-weight: 500;
   z-index: 900; /* 在内容之上，在侧栏和顶栏之下 */
